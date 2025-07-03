@@ -1,0 +1,66 @@
+BIG DATA PRACTICALS – EXPECTED OUTPUT SUMMARY (Python Versions)
+
+------------------------------------------------------------
+Practical 1 – KMeans Clustering
+------------------------------------------------------------
+Output:
+1. Elbow Curve Plot:
+   - Line graph of Within Sum of Squares (WSS) vs Number of Clusters.
+   - Used to identify optimal number of clusters.
+
+2. Cluster Plot (English vs Math):
+   - Scatter plot showing 3 student clusters.
+   - Each point represents a student with color-coded clusters.
+
+------------------------------------------------------------
+Practical 2 – Apriori Algorithm
+------------------------------------------------------------
+Output:
+1. Table of Association Rules:
+   - Columns: antecedents, consequents, support, confidence, lift.
+   - Example:
+     {bread} → {butter} | support: 0.66 | confidence: 0.8 | lift: 1.2
+
+2. (Optional) Item Frequency Plot:
+   - Can be added to show frequency of top items.
+
+------------------------------------------------------------
+Practical 3 – Linear & Logistic Regression
+------------------------------------------------------------
+Output:
+1. Linear Regression Coefficients:
+   - Displays slope and intercept of the fitted line.
+   - Example: Coeff ≈ 2, Intercept ≈ 1
+
+2. Logistic Regression Evaluation:
+   - Confusion Matrix showing prediction results.
+   - Classification Report with precision, recall, f1-score.
+
+------------------------------------------------------------
+Practical 4 – Decision Tree Classification
+------------------------------------------------------------
+Output:
+1. Confusion Matrix:
+   - Compares predicted vs actual class labels.
+
+2. Decision Tree Plot:
+   - Visual diagram of tree splits (Age & EstimatedSalary).
+   - Displays class labels and decision rules at each node.
+
+------------------------------------------------------------
+Practical 5 – Naive Bayes Classification
+------------------------------------------------------------
+Output:
+1. Confusion Matrix:
+   - Table of correct and incorrect predictions on test data.
+
+------------------------------------------------------------
+Practical 6 – Text Analysis
+------------------------------------------------------------
+Output:
+1. Confusion Matrix:
+   - Shows how well reviews were classified as Liked (1) or Not Liked (0).
+   - Results vary based on random split and predictions.
+
+------------------------------------------------------------
+All outputs can be seen on console or as visual plots (matplotlib).
